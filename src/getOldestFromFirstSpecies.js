@@ -10,5 +10,4 @@ function getOldestFromFirstSpecies(id) {
   });
   return [velho.name, velho.sex, velho.age];
 }
-
 module.exports = getOldestFromFirstSpecies;
